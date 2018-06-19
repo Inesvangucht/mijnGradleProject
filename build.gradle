@@ -1,5 +1,8 @@
 apply plugin: 'java'
+apply plugin: 'application'
 
+mainClassName = "Animals.Zoo"
+run.args = ["Ines"]
 
 repositories {
     mavenCentral()

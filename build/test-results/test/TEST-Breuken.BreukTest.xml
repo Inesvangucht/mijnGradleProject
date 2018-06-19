@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Breuken.BreukTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-06-19T12:38:44" hostname="iMac-71.local" time="0.003">
+  <properties/>
+  <testcase name="deNoemerIsNietNul" classname="Breuken.BreukTest" time="0.001"/>
+  <testcase name="deNoemerMagNietNulZijn" classname="Breuken.BreukTest" time="0.001"/>
+  <testcase name="breukVermenigvuldigenVoorVereenvoudiging" classname="Breuken.BreukTest" time="0.001"/>
+  <testcase name="deBreukVereenvoudigen" classname="Breuken.BreukTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
