@@ -3,7 +3,7 @@ package Animals;
 public abstract class Animal {
 
     /**
-     * Hoogste class
+     * Hoogste class oke
      */
 
     protected String name;
