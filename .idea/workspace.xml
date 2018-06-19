@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ec3e743-eeb2-4501-99fc-c34da51c23e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Zoo.java" afterDir="false" />
+    <list default="true" id="4ec3e743-eeb2-4501-99fc-c34da51c23e6" name="Default" comment="eerste commit 19 juni">
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -144,11 +143,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Zoo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Zoo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Animals/Zoo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="79">
               <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -458,12 +466,13 @@
         <option value="$PROJECT_DIR$/src/test/java/TestPackage/PrimesTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/Animals/Zoo.java" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="145" />
-    <option name="y" value="23" />
+    <option name="x" value="32" />
+    <option name="y" value="87" />
     <option name="width" value="2560" />
     <option name="height" value="1336" />
   </component>
@@ -489,34 +498,7 @@
             <path>
               <item name="mijnGradleProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="mijnGradleProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="distributions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mijnGradleProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mijnGradleProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mijnGradleProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mijnGradleProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="mijnGradleProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mijnGradleProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mijnGradleProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mijnGradleProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Animals" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -664,7 +646,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="414" y="23" width="2560" height="1336" extended-state="0" />
+    <frame x="26" y="90" width="2560" height="1336" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -676,8 +658,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007143" side_tool="true" weight="0.30762082" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928573" weight="0.30725807" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32983872" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3292978" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3292978" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3292978" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18665607" />
@@ -869,8 +851,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Animals/Zoo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="79">
           <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
