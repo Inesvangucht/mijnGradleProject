@@ -1,5 +1,9 @@
 apply plugin: 'java'
 apply plugin: 'application'
+apply plugin: 'jacoco'
+apply plugin: 'pmd'
+
+
 
 mainClassName = "Animals.Zoo"
 run.args = ["Ines"]
@@ -10,4 +14,17 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.apache.commons', name: 'commons-math3', version: '3.6.1'
+}
+
+
+
+task boilWater {
+    doLast {println("Boil water.")}
+}
+
+task serveTea (dependsOn: boilWater) {
+    doLast {
+        println("Serving tea now.")
+    }
 }
